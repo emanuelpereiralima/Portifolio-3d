@@ -1,0 +1,1 @@
+Applying the knowledge I had of javascript and tailwind to create a portfolio with my identity and my knowledge in other technologies, in the future I intend to improve and increase even more
