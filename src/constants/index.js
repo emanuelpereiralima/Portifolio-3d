@@ -173,14 +173,14 @@ const testimonials = [
     company: "Accenture",
     image: david,
   },
-  {
+  /*{
     testimonial:
       "",
     name: "Janaína Ramos",
     designation: "Software Engineer",
     company: "Accenture",
     image: janaina,
-  },
+  },*/
 ];
 
 const projects = [
