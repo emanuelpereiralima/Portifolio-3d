@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+import i18next from "../i18n";
+
 
 const FeedbackCard = ({
   index,
@@ -50,8 +52,8 @@ const Feedbacks = () => {
         className={`bg-tertiary rounded-2x2 ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <p className={styles.sectionSubText}>{i18next.t('what others say')}</p>
+          <h2 className={styles.sectionHeadText}>{i18next.t('testimonials')}</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>

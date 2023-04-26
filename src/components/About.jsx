@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import i18next from "../i18n";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -39,23 +40,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>{i18next.t('introduction')}</p>
+        <h2 className={styles.sectionHeadText}>{i18next.t('overview')}</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a Experienced software developer with 2 and half years of expertise 
-        in web application development using C#, ASP.NET MVC, and Entities Framework, 
-        Proficient in software architecture and designing scalable applications,
-        Experienced in deployment and management of cloud-based applications 
-        using Azure and version control with Git. Seeking opportunities to further 
-        develop skills in software development and automated testing
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      {i18next.t('minibio')}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

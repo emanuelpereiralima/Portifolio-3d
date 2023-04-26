@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import Dropdown from "../dropdown/index";
 
 
 const Navbar = () => {
@@ -51,6 +52,9 @@ const Navbar = () => {
         </Link>
       
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+
+          <Dropdown />
+
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -63,8 +67,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        
-
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}

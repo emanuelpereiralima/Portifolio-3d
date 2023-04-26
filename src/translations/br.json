@@ -1,0 +1,68 @@
+{
+    "about":"Sobre",
+    "work":"Trabalhos",
+    "contact":"Contato",
+    "initial":"Olá, me chamo ",
+    "resume1":"Desenvolvo 3D visuals, interfaces",
+    "resume2":"de usuários e aplicações web",
+    "introduction":"Introdução",
+    "overview":"Resumo.",
+    "minibio": "Sou um desenvolvedor de software com 2 anos de experiência no mercado com desenvolvimento de aplicativos web usando C #, ASP.NET MVC e Entities Framework, proficiente em arquitetura de software e design de aplicativos escaláveis, experiente em implantação e gerenciamento de aplicativos baseados em nuvem usando Azure e controle de versão com Git. Buscando oportunidades para melhorar minhas habilidades em desenvolvimento de software e testes automatizados. Aprendo rápido e colaboro estreitamente com os clientes para criar soluções eficientes, escaláveis ​​e fáceis de usar que resolvem problemas do mundo real. Vamos trabalhar juntos para dar vida às suas ideias!",
+    
+    "experience subtitle": "O que fiz até hoje",
+    "experience title": "Experiência profissional e formação.",
+    "experience title 1":"Estagiário",
+    "experience date 1":"Agosto 2021 - Abril 2023",
+    "experience points 1.1":"Desenvolvimento e manutenção de aplicações web utilizando .NET MVC e outras tecnologias relacionadas.",
+    "experience points 1.2":"Colaborar com equipes multifuncionais, incluindo designers e desenvolvedores de teste para criar produtos de alta qualidade.",
+    "experience points 1.3":"Implementação de CI/CD nos projetos.",
+    "experience points 1.4":"Participar de revisões de código e fornecer feedback construtivo a outros desenvolvedores.",
+
+    "experience date 2":"Janeiro 2019 - Fevereiro 2021",
+    "experience points 2.1":"Aprender quem desenvolver, documentar, apresentar jogos 2D/3D usando Autodesk Maya e Unreal.",
+    "experience points 2.2":"Usando o photoshop para aplicar os conhecimentos de pintura 2d.",
+    "experience points 2.3":"Texturização de objetos 3D com Substance Painter.",
+    "experience points 2.4":"Participar da revisão de código e modelagem",
+
+    "experience title 3": "Bacharelado em Sistemas de Informação",
+    "experience date 3":"Agosto 2016 - Atualmente",
+    "experience points 3.1":"Aprendendo desde o básico da programação a documentar, apresentar e fazer produtos para fazer a diferença no mundo.",
+    "experience points 3.2":"Utilizando problemas reais de mercado trazidos para o contexto de sala de aula para que possamos resolvê-los utilizando os conteúdos vistos nos semestres atuais e anteriores.",
+    "experience points 3.3":"Ser capaz de projetar, implementar, gerenciar e inovar processos envolvendo sistemas de informação para resolver problemas de organizações, governo, sociedade e modificar o contexto sócio-político-econômico-científico em que se encontra.",
+
+    "experience title 4": "Programação de jogos digitais",
+    "experience date 4":"Janeiro 2012 - Dezembro 2014",
+    "experience points 4.1":"Aprendendo como desenvolver, documentar, apresentar jogos 2D/3D usando XNA e Unity.",
+    "experience points 4.2":"Também criando jogos analógicos e aplicando o conhecimento de desenvolvimento de jogos em competições ao redor do mundo.",
+    "experience points 4.3":"Desenvolvendo-se junto com a equipe de designers, aprendendo a cooperar e compartilhar conhecimento, buscando sempre a melhoria dos produtos entregues.",
+
+    "my work":"Meus Trabalhos",
+    "projects":"Projetos.",
+    "resume":"Os projetos a seguir mostram minhas habilidades e experiência por meio de exemplos do mundo real do meu trabalho. Cada projeto é brevemente descrito com links para repositórios de código e demonstrações ao vivo. Isso reflete minha capacidade de resolver problemas complexos, trabalhar com diferentes tecnologias e gerenciar projetos de forma eficaz.",
+
+    "project 1 description":"Projeto focado em facilitar o atendimento e a comunicação entre prestadores de serviços e clientes, com segurança e praticidade.",
+
+    "project 2 description":"Repositório onde tenho todos os meus projetos feitos em python, para todos os tipos de soluções",
+
+    "project 3 description":"A missão do GGJ é capacitar indivíduos em todo o mundo para aprender, experimentar e criar juntos por meio de jogos.",
+
+
+    "what others say":"O que os outros tem a dizer sobre mim",
+    "testimonials":"Testemunhos.",
+
+    "testimonials 1": "Emanuel atuou na equipe de automação na aplicação do DevOps e mostrou ser muito estudioso, responsável com as entregas e passa confiança e segurança nas explicações das atividades realizadas.Tem conhecimento em diferentes linguagens de desenvolvimento (C#, JavaScript, Python),teve uma rápida adaptação em uma área que não conhecia que foi o DevOps possibilitando atuação rápida nas melhorias do time. Como destaque teve a criação de Dashboards no nosso portal de forma independente.",
+
+    "contact text 1": "Vamos manter o",
+    "contact text 2": "Contato.",
+    "contact name":"Seu Nome",
+    "contact name placeholder":"Qual seu nome?",
+    "contact email":"Seu Email",
+    "contact email placeholder":"Qual seu email?",
+    "contact message":"Sua Mensagem",
+    "contact message placeholder":"Qual mensagem você deseja me enviar?",
+    "contact sending":"Enviando...",
+    "contact send":"Enviar",
+    "contact alert send message":"Obrigado. Eu entrarei em contato com você o mais breve possível.",
+    "contact alert error":"Ah, algo deu errado. Por favor, tente novamente."
+
+}

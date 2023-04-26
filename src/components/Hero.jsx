@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import i18next from "../i18n";
 
 const Hero = () => {
   return (
@@ -15,12 +16,11 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Emanuel</span>
+          <h1 className={`${styles.heroHeadText} text-white`}>{i18next.t('initial')}
+          <span className='text-[#915EFF]'>Emanuel</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>{i18next.t('resume1')}
+          <br className='sm:block hidden' />{i18next.t('resume2')}
           </p>
         </div>
       </div>

@@ -11,6 +11,8 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import i18next from "../i18n";
+
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -61,10 +63,10 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+        {i18next.t('experience subtitle')}
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience and Courses.
+        {i18next.t('experience title')}
         </h2>
       </motion.div>
 

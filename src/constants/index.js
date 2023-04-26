@@ -25,19 +25,20 @@ import {
   david,
   janaina
 } from "../assets";
+import i18next from "../i18n";
 
 export const navLinks = [
   {
     id: "about",
-    title:"About",
+    title:i18next.t('about'),
   },
   {
     id: "work",
-    title: "Work",
+    title: i18next.t('work'),
   },
   {
     id: "contact",
-    title: "Contact",
+    title: i18next.t('contact'),
   },
 ];
 
@@ -113,28 +114,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Intern",
+    title: i18next.t('experience title 1'),
     company_name: "Accenture",
     icon: accenture,
     iconBg: "#383E56",
-    date: "March 2021 - April 2023",
+    date: i18next.t('experience date 1'),
     points: [
-      "Developing and maintaining web applications using .NET MVC and other related technologies.",
-      "Collaborating with cross-functional teams including designers, test developers to create high-quality products.",
-      "Implementing CI/CD in projects.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Bachelor's in information systems",
-    company_name: "Universidade Federal Rural De Pernambuco",
-    icon: rural,
-    iconBg: "#383E56",
-    date: "August 2016 - Present",
-    points: [
-      "Learn since the basic of programing to document, presenting and make products to make the difference in world.",
-      "Using real market problems brought to the classroom context so that we could solve them using the contents seen in the current and previous semesters.",
-      "Be able to design, implement, manage and innovate processes involving information systems to solve problems of organizations, government, society and modify the socio-political-economic-scientific context in which it is found.",
+      i18next.t('experience points 1.1'),
+      i18next.t('experience points 1.2'),
+      i18next.t('experience points 1.3'),
+      i18next.t('experience points 1.4')
     ],
   },
   {
@@ -142,24 +131,36 @@ const experiences = [
     company_name: "Saga Art School",
     icon: saga,
     iconBg: "#383E56",
-    date: "January 2019 - February 2021",
+    date: i18next.t('experience date 2'),
     points: [
-      "Learning who to develop, document, presenting 2D/3D games using Autodesk Maya and Unreal.",
-      "Using photoshop to apply the knowledge of 2d painting.",
-      "Texturing of 3d objects with substance painter.",
-      "Participating in code and modeling review",
+      i18next.t('experience points 2.1'),
+      i18next.t('experience points 2.2'),
+      i18next.t('experience points 2.3'),
+      i18next.t('experience points 2.4')
     ],
   },
   {
-    title: "Programação de Jogos Digitais",
+    title: i18next.t('experience title 3'),
+    company_name: "Universidade Federal Rural De Pernambuco",
+    icon: rural,
+    iconBg: "#383E56",
+    date:  i18next.t('experience date 3'),
+    points: [
+      i18next.t('experience points 3.1'),
+      i18next.t('experience points 3.2'),
+      i18next.t('experience points 3.3')
+    ],
+  },
+  {
+    title: i18next.t('experience title 4'),
     company_name: "Escola Técnica Estadual Cícero Dias",
     icon: cicero,
     iconBg: "#383E56",
-    date: "January 2012 - December 2014",
+    date: i18next.t('experience date 4'),
     points: [
-      "Learning who to develop, document, presenting 2D/3D games using XNA and Unity.",
-      "Also creating analogue games and applying the knowledge of game development in competitions around the world.",
-      "Developing together with the designer team, learning to cooperate and share knowledge, always seeking to improve the delivered products.",
+      i18next.t('experience points 4.1'),
+      i18next.t('experience points 4.2'),
+      i18next.t('experience points 4.3')
     ],
   },
 ];
@@ -167,7 +168,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Emanuel atuou na equipe de automação na aplicação do DevOps e mostrou ser muito estudioso, responsável com as entregas e passa confiança e segurança nas explicações das atividades realizadas.Tem conhecimento em diferentes linguagens de desenvolvimento (C#, JavaScript, Python),teve uma rápida adaptação em uma área que não conhecia que foi o DevOps possibilitando atuação rápida nas melhorias do time. Como destaque teve a criação de Dashboards no nosso portal de forma independente.",
+    i18next.t('testimonials 1'),
     name: "David Silva",
     designation: "Consulting Engineer",
     company: "Accenture",
@@ -187,7 +188,7 @@ const projects = [
   {
     name: "Reformei",
     description:
-      "Project focused on facilitating service and communication between service providers and customers, with safety and practicality.",
+    i18next.t('project 1 description'),
     tags: [
       {
         name: "Adobe XD",
@@ -208,7 +209,7 @@ const projects = [
   {
     name: "Python Projects",
     description:
-      "All my projects made in python, for all kind of solucions",
+    i18next.t('project 2 description'),
     tags: [
       {
         name: "python",
@@ -225,7 +226,7 @@ const projects = [
   {
     name: "Global Game Jam Projects",
     description:
-      "The GGJ mission is to empower individuals worldwide to learn, experiment, and create together through the medium of games.",
+    i18next.t('project 3 description'),
     tags: [
       {
         name: "Csharp",
